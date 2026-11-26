@@ -1,0 +1,19 @@
+# TV pairing identity and signing keys: never commit
+secrets/
+app/src/main/assets/client.p12
+app/src/main/assets/server_sha256.txt
+*.jks
+*.keystore
+keystore.properties
+
+# Tooling
+pairing/venv/
+__pycache__/
+.gradle/
+build/
+app/build/
+local.properties
+.idea/
+*.iml
+.DS_Store
+.kotlin/
